@@ -1,0 +1,59 @@
+﻿body {
+    font-family: Tahoma;
+    font-size: 12pt;
+    margin: 0px;
+    /*background: #94C5EB url(Assets/background-grad.png) repeat-x;*/
+    color: #325883;
+}
+
+#content {
+    background-color: #fff;
+    /*padding: 0 10px 15px 10px;*/
+    height: 470px;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: left;
+    width: 1000px;
+    padding: 8px 10px 3px 10px;
+    box-shadow: 7px 7px 7px 0px #447D99;
+}
+
+#header {
+    color: #172322;
+    /*background: url('Assets/header-corners.png') no-repeat left bottom;*/
+    height: 70px;
+    padding: 0px 0px 0px 30px;
+}
+
+.spanclass {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    color: #CCCCCC;
+    font-size: 18px;
+    font-family: Happy Monkey;
+    text-wrap: avoid;
+}
+
+.spanHead {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    text-wrap: avoid;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1024px) and (orientation:portrait) {
+    .spanclass {
+        font-size: 2em !important;
+        height: 700px !important;
+    }
+
+    .spanHead {
+        font-size: 1.8em !important;
+       height: 110px;
+    }
+}
